@@ -1,0 +1,53 @@
+.filme{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+
+.container{
+
+    max-width: 900px;
+}
+
+.filme img {
+    border-radius: 20px;
+}
+
+.filme button {
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 24px;
+    outline: none;
+    padding: 12px;
+    transition: all 0.5;
+}
+
+.filme button:hover {
+    background-color: brown;
+    color: aliceblue;
+}
+
+.filme button a{
+
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5;
+
+}
+
+.filme button a:hover{
+
+    text-decoration: none;
+    color: #FFF;
+    
+}
+
+.areaButton{
+    margin-bottom: 10%;
+}
